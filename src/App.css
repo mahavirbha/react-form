@@ -1,10 +1,38 @@
 .App {
-  text-align: center;
+  /* text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; */
+}
+
+
+form {
+  background-color: aquamarine;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+input{
+  margin-bottom: 15px;
+}
+
+.inp {
+  text-align: left;
+  text-transform: capitalize;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
